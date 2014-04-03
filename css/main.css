@@ -36,6 +36,7 @@ body {
 	background-color: #2d2d2d;
 	height: 200px;
 	width: 100%;
+	position: absolute;
 }
 
 #backBottom {
@@ -43,6 +44,8 @@ body {
 	background-color: #3e3e3e;
 	height: 600px;
 	width: 100%;
+	position: absolute;
+	top: 200px;
 }
 
 .container {
