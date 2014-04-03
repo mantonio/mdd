@@ -101,8 +101,8 @@ footer {
 nav {
 	width: 400px;
 	float: right;
-	background: yellow;
 	padding: 10px;
+	margin: auto 0;
 }
 
 nav ul {
@@ -112,7 +112,7 @@ nav ul {
 
 nav ul li {
 	float: left;
-	margin-right: 78px;
+	margin-right: 61px;
 	font-size: 20rem;
 	color: #f2f2f2;
 
