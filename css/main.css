@@ -100,11 +100,12 @@ footer {
 ***************************************************************************************/
 nav {
 	width: 400px;
+	float: right;
+	background: yellow;
 }
 
 nav ul {
 	list-style: none;
-	float: right;
 	width: 100%;
 }
 
