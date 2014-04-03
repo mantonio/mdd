@@ -8,6 +8,45 @@
 ************************************************/
 
 /*
+FUN STUFF
+======================================== */
+@-webkit-keyframes backgroundTopAnimate {
+  0%   { background-color: #2d2d2d; }
+  100% { background-color: #3e3e3e; }
+}
+@-moz-keyframes backgroundTopAnimate {
+  0%   { background-color: #2d2d2d; }
+  100% { background-color: #3e3e3e; }
+}
+@-o-keyframes backgroundTopAnimate {
+  0%   { background-color: #2d2d2d; }
+  100% { background-color: #3e3e3e; }
+}
+@keyframes backgroundTopAnimate {
+  0%   { background-color: #2d2d2d; }
+  100% { background-color: #3e3e3e; }
+}
+
+/* backgroundBottom */
+@-webkit-keyframes backgroundBottomAnimate {
+  0%   { background-color: #3e3e3e; }
+  100% { background-color: #2d2d2d; }
+}
+@-moz-keyframes backgroundBottomAnimate {
+  0%   { background-color: #3e3e3e; }
+  100% { background-color: #2d2d2d; }
+}
+@-o-keyframes backgroundBottomAnimate {
+  0%   { background-color: #3e3e3e; }
+  100% { background-color: #2d2d2d; }
+}
+@keyframes backgroundBottomAnimate {
+  0%   { background-color: #3e3e3e; }
+  100% { background-color: #2d2d2d; }
+}
+
+
+/*
 RESET
 ======================================== */
 html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, address, em, img, small, strong, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, figcaption, footer, header, hgroup, nav, section, audio, video {
@@ -21,31 +60,43 @@ html, body, div, span, h1, h2, h3, h4, h5, h6, p, blockquote, a, address, em, im
 /***************************************************************************************
 * BODY ELEMENTS
 ***************************************************************************************/
+/* General Elements */
 html {
 	font-size: 1px;
+	height: 100%;
 }
 
 body {
 	font-size: 14rem;
 	font-family: 'Josefin Sans', sans-serif;
 	color: #acacac;
+	height: 100%;
 }
 
-#backTop {
+#backTop, #backBottom {
 	border-bottom: 3px solid #000;
 	background-color: #2d2d2d;
 	height: 200px;
 	width: 100%;
-	position: absolute;
+	position: fixed;
+	z-index: -1;
 }
 
 #backBottom {
+	border-bottom: 0;
+	border-top: 3px solid #000;
+	bottom: 0;
+	position: fixed;
+}
+
+#backMiddle {
 	border-top: 1px solid #333;
 	background-color: #3e3e3e;
-	height: 600px;
+	height: 500px;
 	width: 100%;
-	position: absolute;
+	position: fixed;
 	top: 200px;
+	z-index: -1;
 }
 
 .container {
@@ -59,8 +110,8 @@ body {
 
 #mainContent {
 	background-color: #2a2a2a;
-	padding: 0 10px;
-	height: ;
+	padding: 50px;
+	overflow: hidden;
 }
 
 header {
@@ -69,6 +120,7 @@ header {
 	height: 75px;
 	padding: 0 10px;
 	overflow: hidden;
+	border-bottom: 3px solid #000;
 }
 
 div {
@@ -80,11 +132,39 @@ hr {
 }
 
 img {
-
+	border: none;
 }
 
 a {
 
+}
+
+/* Portfolio */
+.pfItem {
+	padding: 20px;
+	margin-bottom: 20px;
+	width: 45%;
+	float: left;
+	background-color: #3b3b3b;
+}
+
+.pfItem:nth-child(odd) {
+	margin-right: 85px;
+}
+
+.pfTitle {
+	text-shadow: 1px 1px 0 #000;
+}
+
+.pfItem img {
+	float: left;
+	margin: 0 10px 10px 0;
+}
+
+.pfTags {
+	clear: left;
+	background-color: #2d2d2d;
+	padding: 5px;
 }
 
 /* Footer */
@@ -94,6 +174,7 @@ footer {
 	background-color: #3b3b3b;
 	position: relative;
 	bottom: 0;
+	border-top: 3px solid #000;
 }
 
 
@@ -139,7 +220,7 @@ nav li a:hover {
 /* Logo */
 #logoContainer {
 	width: 174px;
-	margin: 30px 0 0 10px;
+	margin: 10px 0 0 10px;
 }
 
 #mainLogo {
