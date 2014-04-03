@@ -54,6 +54,7 @@ body {
 	border-left: 1px solid #000;
 	position: relative;
 	top: 0;
+	padding: 0;
 }
 
 #mainContent {
