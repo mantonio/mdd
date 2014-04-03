@@ -102,6 +102,7 @@ nav {
 	width: 400px;
 	float: right;
 	background: yellow;
+	padding: 10px;
 }
 
 nav ul {
@@ -111,7 +112,9 @@ nav ul {
 
 nav ul li {
 	float: left;
-	margin-right: 20px;
+	margin-right: 78px;
+	font-size: 20rem;
+	color: #f2f2f2;
 
 }
 
