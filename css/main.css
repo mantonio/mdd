@@ -20,7 +20,7 @@ body {
     font-size: 14rem;
     font-family:'Josefin Sans', sans-serif;
     color: #acacac;
-    margin-top: 55px;/* 50px is the height of the navbar - change this if the navbarn height changes */
+    margin-top: 100px;/* 50px is the height of the navbar - change this if the navbarn height changes */
     background-color: #2a2a2a;
 }
 
@@ -42,6 +42,10 @@ a {
 
 .portfolio-item {
     margin-bottom: 25px;
+}
+
+.firebrick {
+	color: firebrick;
 }
 
 /* All Headings */
@@ -77,8 +81,8 @@ h6 {
 }
 
 .page-header {
-	color: firebrick;
-	text-shadow: 2px 2px 0 #2a2a2a;
+	color: lightsteelblue;
+	text-shadow: 2px 2px 0 #000;
 }
 
 /* Text Formatting */
@@ -183,22 +187,22 @@ HEADER / MAIN NAV
 ********************************************** */
 #mainLogo {
 	text-transform: lowercase;
-	color: firebrick;
-	margin-top: 8px;
+	margin-top: 28px;
 	line-height: 0;
-	text-shadow: 2px 2px 0 #2a2a2a;
+	text-shadow: 2px 2px 0 #000;
 	font-weight: bolder;
+	font-size: 64rem;
 }
 
 #mainNav.nav {
-	margin-top: 8px;
+	margin-top: 30px;
 }
 
 .navbar {
 	background-color: #222;
 	border-bottom: 5px solid #494949;
 	box-shadow: 1px 1px 2px #222;
-	min-height: 55px;
+	min-height: 100px;
 	border-top: none;
 }
 
@@ -211,7 +215,7 @@ HEADER / MAIN NAV
 } 
 
 #mainNav.nav.navbar-right li a {
-	font-size: 20rem;
+	font-size: 26rem;
 	color: #f2f2f2;
 	border: 2px solid transparent;
 	padding: 5px;
@@ -223,6 +227,14 @@ HEADER / MAIN NAV
 	color: firebrick;
 	text-decoration: none;
 	text-shadow: none;
+}
+
+
+/*
+OTHER
+********************************************** */
+.portfolio-item img.img-responsive {
+	box-shadow: 3px 3px 0 #494949, 6px 6px 0 #000;
 }
 
 /*
