@@ -21,7 +21,11 @@ body {
     font-family:'Josefin Sans', sans-serif;
     color: #acacac;
     margin-top: 100px;/* 50px is the height of the navbar - change this if the navbarn height changes */
-    background-color: #2a2a2a;
+    background-color: #f2f2f2;
+}
+
+.container {
+	background-color: #2d2d2d;
 }
 
 div {
@@ -29,7 +33,7 @@ div {
 }
 
 hr {
-
+	border-top-color: lightsteelblue;
 }
 
 img {
@@ -83,6 +87,7 @@ h6 {
 .page-header {
 	color: lightsteelblue;
 	text-shadow: 2px 2px 0 #000;
+	border-bottom-color: lightsteelblue;
 }
 
 /* Text Formatting */
@@ -199,9 +204,9 @@ HEADER / MAIN NAV
 }
 
 .navbar {
-	background-color: #222;
-	border-bottom: 5px solid #494949;
-	box-shadow: 1px 1px 2px #222;
+	background-color: #2d2d2d;
+	border-bottom: 5px solid #acacac;
+	box-shadow: 1px 1px 8px #000;
 	min-height: 100px;
 	border-top: none;
 }
@@ -218,7 +223,10 @@ HEADER / MAIN NAV
 	font-size: 26rem;
 	color: #f2f2f2;
 	border: 2px solid transparent;
-	padding: 5px;
+	padding: 5px 10px 0 10px;
+	display: block;
+	min-height: 30px;
+	line-height: 30px;
 	text-shadow: 2px 2px 0 #2a2a2a;
 }
 
