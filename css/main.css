@@ -198,13 +198,44 @@ HEADER / MAIN NAV
     text-shadow: none;
 }
 /*
-OTHER
+PORTFOLIO
 ********************************************** */
  .portfolio-item img.img-responsive {
     box-shadow: 3px 3px 0 #494949, 6px 6px 0 #000;
+    
 }
 .portfolio-item img.img-responsive:hover {
 	box-shadow: 3px 3px 0 #494949, 6px 6px 0 firebrick;
+}
+.caption {
+	background-color: rgba(0,0,0,0.8);
+	position: absolute;
+	color: #fff;
+	z-index: 100;
+	-webkit-transition: all 300ms ease-out;
+	-moz-transition: all 300ms ease-out;
+	-o-transition: all 300ms ease-out;
+	-ms-transition: all 300ms ease-out;
+	transition: all 300ms ease-out;
+	left: 15px;
+}
+.simple-caption {
+	height: 30px;
+	width: 263px;
+	display: block;
+	bottom: -30px;
+	line-height: 25pt;
+	text-align: center; 
+	display: none;
+}
+.portfolio-item:hover .simple-caption {
+	-moz-transform: translateY(-100%);
+	-o-transform: translateY(-100%);
+	-webkit-transform: translateY(-100%);
+	opacity: 1;
+	transform: translateY(-100%);
+	display: block;
+
 }
 /*
 OTHER
