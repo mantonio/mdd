@@ -22,12 +22,12 @@
 //         });
 // });
 
-var App = angular.module('demoApp', ['ngRoute']);
+var App = angular.module('mddApp', ['ngRoute']);
 
 App.config(function($routeProvider) {
     $routeProvider.
-    when('/', {
-        templateUrl: '/views/main.html',
+    when('/mdd/', {
+        templateUrl: 'views/main.html',
         controller: 'MainController'
     }).
 
@@ -37,6 +37,6 @@ App.config(function($routeProvider) {
     }).
 
     when('/about', {
-        templateUrl: '/views/about.html'
+        templateUrl: 'views/about.html'
     });
 });
