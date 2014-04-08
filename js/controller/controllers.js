@@ -1,9 +1,8 @@
-app.controller('MainController', function($scope) {
-    $scope.title = 'That title I showed you that one time.';
+app.controller('CoreCtrl', function($scope) {
+    $scope.title = 'Title 1.';
 });
 
-// App.controller('MainController', ['$scope',
-//     function($scope) {
-//         $scope.title = 'That title I showed you that one time.';
-//     }
-// ])
+
+app.controller('MainController', function($scope) {
+    $scope.title = 'Title 2 That title I showed you that one time.';
+});
