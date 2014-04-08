@@ -3,11 +3,11 @@ var app = angular.module('mddApp', ['ngRoute']);
 app.config(function($routeProvider) {
     $routeProvider
         .when('/', {
-            templateUrl: '/views/main.html',
+            templateUrl: 'views/main.html',
             controller: 'MainController'
         })
         .when('/index', {
-            templateUrl: '/views/main.html',
+            templateUrl: 'views/main.html',
             controller: 'MainController'
         })
         .when('/project/:id', {
