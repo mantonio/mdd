@@ -1,5 +1,7 @@
-app.controller('MainController', ['$scope', '$http',
+app.controller('MainController', ['$scope', '$http', '$location',
     function($scope, $http, $location) {
+
+        $scope.location = $location;
 
         //Get data from JSON file
         $http.get('../js/app/fsItems.json').success(function(data) {

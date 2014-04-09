@@ -31,7 +31,9 @@
     <!-- CORE JS FILES -->
     <script src="js/app/main.js"></script>
     <script src="js/app/controllers/main_controller.js"></script>
+    <script src="js/app/controllers/nav_controller.js"></script>
     <script src="js/app/filters/pfItem_filter.js"></script>
+    <script src="js/app/directives/activeLink_directive.js"></script>
 
 </head>
 
@@ -54,9 +56,9 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul id="mainNav" class="nav navbar-nav navbar-right">
-                    <li ng-class="{active:isActive('/portfolio')}"><a href="#/portfolio">Portfolio</a>
+                    <li><a active-link="active" href="#/portfolio">Portfolio</a>
                     </li>
-                    <li ng-class="{active:isActive('/about')}"><a href="#/about">About</a>
+                    <li><a active-link="active" href="#/about">About</a>
                     </li>
                     <li><a href="#/contact">Contact</a>
                     </li>

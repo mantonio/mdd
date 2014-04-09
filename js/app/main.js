@@ -12,12 +12,14 @@ app.config(function($routeProvider) {
         })
         .when('/portfolio-item', {
             templateUrl: 'views/portfolio-item.html',
-            controller: 'PortfolioController '
+            controller: 'PortfolioController'
         })
         .when('/about', {
-            templateUrl: 'views/about.html '
+            templateUrl: 'views/about.html',
+            controller: 'MainController'
         })
-        .otherwise({
-            redirectTo: '/'
+        .when('/portfolio', {
+            templateUrl: 'views/main.html',
+            controller: 'MainController'
         });
 });
