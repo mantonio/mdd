@@ -5,220 +5,30 @@
 
 </div>
 
-<div class="row">
+    <div class="row" ng-repeat="row in fsItems | partition:4">
 
-    <div class="col-md-3 portfolio-item">
-        <a href="#/portfolio-item">
-            <img class="img-responsive" src="images/portfolio/cammers.jpg" alt="DWF Responsive Web Project" title="DWF Responsive Web Project">
-            <span class="caption simple-caption">
-                <p>DWF Responsive Web Project</p>
-        </a>
-    </div>
+        <div class="col-md-3 portfolio-item" ng-repeat="item in row">
+            <a href="#/portfolio-item">
+                <img class="img-responsive" ng-src="images/portfolio/{{ item.imgName }}.jpg" alt="{{ item.title }}" title="{{ item.title }}">
+                <span class="caption simple-caption">
+                    <p>{{ item.title }}</p>
+            </a>
+        </div><!-- END .col-md-3 -->
 
-    <div class="col-md-3 portfolio-item">
-        <a href="#/portfolio-item">
-            <img class="img-responsive" src="images/portfolio/espn-ad.jpg" alt="DCG ESPN Poster" title="DCG ESPN Poster">
-            <span class="caption simple-caption">
-                <p>DCG ESPN Poster</p>
-        </a>
-    </div>
+    </div><!-- END .row -->
 
-    <div class="col-md-3 portfolio-item">
-        <a href="#/portfolio-item">
-            <img class="img-responsive" src="images/portfolio/espn-kiosk.jpg" alt="ADG ESPN Kiosk Interface Design" title="ADG ESPN Kiosk Interface Design">
-            <span class="caption simple-caption">
-                <p>ADG ESPN Kiosk Interface Design</p>
-        </a>
-    </div>
+<div class="col-lg-12">
+    <h2 class="page-header">Work Portfolio</h2>
+</div>
 
-    <div class="col-md-3 portfolio-item">
+<div class="row" ng-repeat="row in workItems | partition:4">
+
+    <div class="col-md-3 portfolio-item" ng-repeat="item in row">
         <a href="#/portfolio-item">
-            <img class="img-responsive" src="images/portfolio/hobbit.jpg" alt="SMS e-Learning APP" title="SMS e-Learning App">
+            <img class="img-responsive" ng-src="images/portfolio/{{ item.imgName }}.jpg" alt="{{ item.title }}" title="{{ item.title }}">
             <span class="caption simple-caption">
-                <p>SMS e-Learning APP</p>
+                <p>{{ item.title }}</p>
         </a>
     </div>
 
 </div>
-
-<div class="row">
-
-    <div class="col-md-3 portfolio-item">
-        <a href="#/portfolio-item">
-            <img class="img-responsive" src="images/portfolio/metroid.jpg" alt="RMO Media Wesbite" title="RMO Media Website">
-            <span class="caption simple-caption">
-                <p>RMO Media Wesbite</p>
-        </a>
-    </div>
-
-    <div class="col-md-3 portfolio-item">
-        <a href="#/portfolio-item">
-            <img class="img-responsive" src="images/portfolio/paintball.jpg" alt="ADT Paintball Web Design" title="ADT Paintball Web Design">
-            <span class="caption simple-caption">
-                <p>ADT Paintball Web Design</p>
-        </a>
-    </div>
-
-    <div class="col-md-3 portfolio-item">
-        <a href="#/portfolio-item">
-            <img class="img-responsive" src="images/portfolio/primrose.jpg" alt="WSP Responsive Web Design Project" title="WSP Responsive Web Design Project">
-            <span class="caption simple-caption">
-                <p>WSP Responsive Web Design Project</p>
-        </a>
-    </div>
-
-    <div class="col-md-3 portfolio-item">
-        <a href="#/portfolio-item">
-            <img class="img-responsive" src="images/portfolio/thermometer.jpg" alt="ACG Mechanical Object Illustration" title="ACG Mechanical Object Illustration">
-            <span class="caption simple-caption">
-                <p>ACG Mechanical Object Illustration</p>
-        </a>
-    </div>
-
-</div>
-
-<div class="row">
-
-    <div class="col-md-3 portfolio-item">
-        <a href="#/portfolio-item">
-            <img class="img-responsive" src="images/portfolio/tron.jpg" alt="WDF One Page Web Design" title="WDF One Page Web Design">
-            <span class="caption simple-caption">
-                <p>WDF One Page Web Design</p>
-        </a>
-    </div>
-
-    <div class="col-lg-12">
-        <h2 class="page-header">Work Portfolio</h2>
-    </div>
-
-</div>
-
-<div class="row">
-
-    <div class="col-md-3 portfolio-item">
-        <a href="#/portfolio-item">
-            <img class="img-responsive" src="images/portfolio/anthonys.jpg" alt="Anthony's Pizza" title="Anthony's Pizza">
-            <span class="caption simple-caption">
-                <p>Anthony's Pizza</p>
-        </a>
-    </div>
-
-    <div class="col-md-3 portfolio-item">
-        <a href="#/portfolio-item">
-            <img class="img-responsive" src="images/portfolio/archers.jpg" alt="Archer's Mountain Inn" title="Archer's Mountain Inn">
-            <span class="caption simple-caption">
-                <p>Archer's Mountain Inn</p>
-        </a>
-    </div>
-
-    <div class="col-md-3 portfolio-item">
-        <a href="#/portfolio-item">
-            <img class="img-responsive" src="images/portfolio/boone_realty.jpg" alt="Boone Realty" title="Boone Realty">
-            <span class="caption simple-caption">
-                <p>Boone Realty</p>
-        </a>
-    </div>
-
-    <div class="col-md-3 portfolio-item">
-        <a href="#/portfolio-item">
-            <img class="img-responsive" src="images/portfolio/distinctive.jpg" alt="Distinctive Communications" title="Distinctive Communications">
-            <span class="caption simple-caption">
-                <p>Distinctive Communications</p>
-        </a>
-    </div>
-
-</div>
-
-<div class="row">
-
-    <div class="col-md-3 portfolio-item">
-        <a href="#/portfolio-item">
-            <img class="img-responsive" src="images/portfolio/donnelly.jpg" alt="Donnelly Euro Footwear" title="Donnelly Euro Footwear">
-            <span class="caption simple-caption">
-                <p>Donnelly Euro Footwear</p>
-        </a>
-    </div>
-
-    <div class="col-md-3 portfolio-item">
-        <a href="#/portfolio-item">
-            <img class="img-responsive" src="images/portfolio/elite.jpg" alt="Elite Mountain &amp; Triangle Properties" title="Elite Mountain &amp; Triangle Properties">
-            <span class="caption simple-caption">
-                <p>Elite Mountain &amp; Triangle Properties</p>
-        </a>
-    </div>
-
-    <div class="col-md-3 portfolio-item">
-        <a href="#/portfolio-item">
-            <img class="img-responsive" src="images/portfolio/erbuilders.jpg" alt="Enterline &amp; Russell Builders" title="Enterline &amp; Russell Builders">
-            <span class="caption simple-caption">
-                <p>Enterline &amp; Russell Builders</p>
-        </a>
-    </div>
-
-    <div class="col-md-3 portfolio-item">
-        <a href="#/portfolio-item">
-            <img class="img-responsive" src="images/portfolio/hcm.jpg" alt="Hidden Creek Management" title="Hidden Creek Management">
-            <span class="caption simple-caption">
-                <p>Hidden Creek Management</p>
-        </a>
-    </div>
-
-</div>
-
-<div class="row">
-
-    <div class="col-md-3 portfolio-item">
-        <a href="#/portfolio-item">
-            <img class="img-responsive" src="images/portfolio/iso.jpg" alt="Instant Storage Online" title="Instant Storage Online">
-            <span class="caption simple-caption">
-                <p>Instant Storage Online</p>
-        </a>
-    </div>
-
-    <div class="col-md-3 portfolio-item">
-        <a href="#/portfolio-item">
-            <img class="img-responsive" src="images/portfolio/maplesLeather.jpg" alt="Maple's Leather Fine Furniture" title="Maple's Leather Fine Furniture">
-            <span class="caption simple-caption">
-                <p>Maple's Leather Fine Furniture</p>
-        </a>
-    </div>
-
-    <div class="col-md-3 portfolio-item">
-        <a href="#/portfolio-item">
-            <img class="img-responsive" src="images/portfolio/bagels.jpg" alt="Mountain Bagels" title="Mountain Bagels">
-            <span class="caption simple-caption">
-                <p>Mountain Bagels</p>
-        </a>
-    </div>
-
-    <div class="col-md-3 portfolio-item">
-        <a href="#/portfolio-item">
-            <img class="img-responsive" src="images/portfolio/randalls.jpg" alt="Randall's Rescue" title="Randall's Rescue">
-            <span class="caption simple-caption">
-                <p>Randall's Rescue</p>
-        </a>
-    </div>
-</div>
-
-<div class="row">
-
-    <div class="col-md-3 portfolio-item">
-        <a href="#/portfolio-item">
-            <img class="img-responsive" src="images/portfolio/watercounter.jpg" alt="WaterCounter" title="WaterCounter">
-            <span class="caption simple-caption">
-                <p>WaterCounter</p>
-        </a>
-    </div>
-
-    <div class="col-md-3 portfolio-item">
-        <a href="#/portfolio-item">
-            <img class="img-responsive" src="images/portfolio/wrapIt.jpg" alt="Wrap-It Packaging" title="Wrap-It Packaging">
-            <span class="caption simple-caption">
-                <p>Wrap-It Packaging</p>
-        </a>
-    </div>
-
-</div>
-
-
-<!-- /.container -->

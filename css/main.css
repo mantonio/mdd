@@ -52,6 +52,7 @@ a {
     font-family:'Londrina Outline', cursive;
     text-transform: uppercase;
     letter-spacing: 2px;
+    color: lightsteelblue;
 }
 /* Individual Headings */
  h1 {
@@ -73,7 +74,6 @@ h6 {
     font-size: 16rem;
 }
 .page-header {
-    color: lightsteelblue;
     text-shadow: 2px 2px 0 #000;
     border-bottom-color: lightsteelblue;
 }
@@ -92,7 +92,7 @@ blockquote p {
     font-family:'Nothing You Could Do', cursive;
     color: lightsteelblue;
     font-size: 26rem;
-    text-shadow: 2px 2px 0 #000;
+    text-shadow: 1px 1px 0 #000;
 }
 blockquote p::before, blockquote p::after {
     font-family: FlatIcon;
@@ -156,6 +156,10 @@ HEADER / MAIN NAV
     text-shadow: 2px 2px 0 #000;
     font-weight: bolder;
     font-size: 64rem;
+    color: #acacac;
+}
+#mainLogo:hover {
+    color: #fff;
 }
 #mainNav.nav {
     margin-top: 30px;

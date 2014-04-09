@@ -1,0 +1,38 @@
+[
+    {
+        "title" : "DWF Responsive Web Project",
+        "imgName" : "cammers"
+    },
+    {
+        "title" : "DCG ESPN Poster",
+        "imgName" : "espn-ad"
+    },
+    {
+        "title" : "ADG ESPN Kiosk Interface Design",
+        "imgName" : "espn-kiosk"
+    },
+    {
+        "title" : "SMS e-Learning App",
+        "imgName" : "hobbit"
+    },
+    {
+        "title" : "RMO Media Wesbite",
+        "imgName" : "metroid"
+    },
+    {
+        "title" : "ADT Paintball Web Design",
+        "imgName" : "paintball"
+    },
+    {
+        "title" : "WSP Responsive Web Design Project",
+        "imgName" : "primrose"
+    },
+    {
+        "title" : "ACG Mechanical Object Illustration",
+        "imgName" : "thermometer"
+    },
+    {
+        "title" : "WDF One Page Web Design",
+        "imgName" : "tron"
+    }
+]

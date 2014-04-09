@@ -1,0 +1,58 @@
+[
+    {
+        "title" : "Anthony's Pizza",
+        "imgName" : "anthonys"
+    },
+    {
+        "title" : "Archer's Mountain Inn",
+        "imgName" : "archers"
+    },
+    {
+        "title" : "Boone Realty",
+        "imgName" : "boone_realty"
+    },
+    {
+        "title" : "Distinctive Communications",
+        "imgName" : "distinctive"
+    },
+    {
+        "title" : "Donnelly Euro Footwear",
+        "imgName" : "donnelly"
+    },
+    {
+        "title" : "Elite Mountain & Triangle Properties",
+        "imgName" : "elite"
+    },
+    {
+        "title" : "Enterline & Russell Builders",
+        "imgName" : "erbuilders"
+    },
+    {
+        "title" : "Hidden Creek Management",
+        "imgName" : "hcm"
+    },
+    {
+        "title" : "Instant Storage Online",
+        "imgName" : "iso"
+    },
+    {
+        "title" : "Maple's Leather Fine Furniture",
+        "imgName" : "maplesLeather"
+    },
+    {
+        "title" : "Mountain Bagels",
+        "imgName" : "bagels"
+    },
+    {
+        "title" : "Randall's Rescue",
+        "imgName" : "randalls"
+    },
+    {
+        "title" : "WaterCounter",
+        "imgName" : "watercounter"
+    },
+    {
+        "title" : "Wrap-It Packaging",
+        "imgName" : "wrapIt"
+    }
+]
