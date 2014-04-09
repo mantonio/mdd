@@ -1,28 +1,3 @@
-app.controller('MainController', ['$scope', '$http',
-    function($scope, $http) {
-
-        $http.get('../js/fsItems.json').success(function(data) {
-
-            $scope.fsItems = data;
-
-        });
-
-        $http.get('../js/workItems.json').success(function(data) {
-
-            $scope.workItems = data;
-
-        });
-
-        // $scope.getClass = function(path) {
-        //     if ($location.path().substr(0, path.length) == path) {
-        //         return "active"
-        //     } else {
-        //         return ""
-        //     }
-        // }
-    }
-]);
-
 app.filter('partition', function($cacheFactory) {
     var arrayCache = $cacheFactory('partition');
     var filter = function(arr, size) {
