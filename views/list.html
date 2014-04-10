@@ -1,0 +1,46 @@
+<div class="row">
+    <div class="col-lg-12">
+        <h2 class="page-header">Full Sail Portfolio</h2>
+    </div>
+</div>
+<!-- END row -->
+
+<div class="row" ng-repeat="row in fsItems | partition:9">
+
+    <div class="portfolio-item col-md-3" ng-repeat="item in row">
+        <a href="#/detail/{{ row.indexOf(item) }}">
+            <img class="img-responsive" ng-src="images/portfolio/{{ item.imgName }}.jpg" alt="{{ item.title }}" title="{{ item.title }}">
+            <span class="caption simple-caption">
+                <p>{{ item.title }}</p>
+        </a>
+    </div>
+    <!-- END portfolio-item -->
+
+</div>
+<!-- END .row -->
+
+</div>
+<!-- END portfolio-container -->
+
+<div class="portfolio-container">
+    <div class="col-lg-12">
+        <h2 class="page-header">Work Portfolio</h2>
+    </div>
+    <!-- END col-lg-12 -->
+
+    <div class="row" ng-repeat="row in workItems | partition:14">
+
+            <div class="portfolio-item col-md-3" ng-repeat="item in row">
+                <a href="#/detail/{{ row.indexOf(item) }}">
+                    <img class="img-responsive" ng-src="images/portfolio/{{ item.imgName }}.jpg" alt="{{ item.title }}" title="{{ item.title }}">
+                    <span class="caption simple-caption">
+                        <p>{{ item.title }}</p>
+                </a>
+            </div>
+            <!-- END portfolio-item -->
+
+    </div>
+    <!-- END row -->
+
+</div>
+<!-- END row -->

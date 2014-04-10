@@ -1,7 +1,7 @@
 <div class="row">
 
     <div class="col-lg-12">
-        <h1 class="page-header">DWF Responsive Web Project</h1>
+        <h2 class="page-header">{{ detailItems[whichItem].title }}</h2>
     </div>
 
 </div>
@@ -9,17 +9,15 @@
 <div class="row">
 
     <div class="col-md-8">
-        <img class="img-responsive portfolioImg" src="images/portfolio/cammers.jpg">
+        <img class="img-responsive portfolioImg" ng-src="images/portfolio/{{ detailItems[whichItem].imgName }}.jpg" alt="{{ detailItems[whichItem].title }}">
     </div>
 
     <div class="col-md-4">
         <h3>Project Description</h3>
-        <p>This one page website was a project for two classes, HTML and CSS.</p>
-        <h3>Project Details</h3>
+        <p>{{ detailItems[whichItem].description }}</p>
+        <h3>Technology Used</h3>
         <ul>
-            <li>Adobe Photoshop</li>
-            <li>HTML5</li>
-            <li>CSS3</li>
+            <li ng-repeat="tech in detailItems[0].techUsed">{{ tech[whichItem].tech }}</li>
         </ul>
     </div>
 

@@ -205,6 +205,12 @@ PORTFOLIO
 .portfolio-item img.img-responsive:hover, #projectImgs .portfolio-item:hover {
     box-shadow: 3px 3px 0 #494949, 6px 6px 0 firebrick;
 }
+.portfolio-item {
+    list-style-type: none;
+}
+.portfolio-item li {
+    float: left;
+}
 .caption {
     background-color: rgba(0, 0, 0, 0.8);
     position: absolute;
@@ -227,12 +233,12 @@ PORTFOLIO
     display: none;
 }
 .portfolio-item:hover .simple-caption {
+    opacity: 1;
+    display: block;
     -moz-transform: translateY(-100%);
     -o-transform: translateY(-100%);
     -webkit-transform: translateY(-100%);
-    opacity: 1;
     transform: translateY(-100%);
-    display: block;
 }
 .portfolioImg {
     box-shadow: 5px 5px 0 #494949, 10px 10px 0 #000;
