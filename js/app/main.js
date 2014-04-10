@@ -3,11 +3,11 @@ var app = angular.module('mddApp', ['ngRoute']);
 app.config(function($routeProvider) {
     $routeProvider
         .when('/', {
-            templateUrl: 'views/List.html',
+            templateUrl: 'views/list.html',
             controller: 'ListController'
         })
         .when('/index', {
-            templateUrl: 'views/List.html',
+            templateUrl: 'views/list.html',
             controller: 'ListController'
         })
         .when('/detail/:itemId', {
@@ -19,7 +19,7 @@ app.config(function($routeProvider) {
             controller: 'ListController'
         })
         .when('/portfolio', {
-            templateUrl: 'views/List.html',
+            templateUrl: 'views/list.html',
             controller: 'ListController'
         });
 });
