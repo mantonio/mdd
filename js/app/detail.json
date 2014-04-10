@@ -134,19 +134,16 @@
         "imgName" : "donnelly",
         "description" : "Shoe retailer in Mount Dora, FL.",
         "techUsed" : [
-            {"tech" : "Adobe Photoshop"},
-            {"tech" : "HTML5"},
-            {"tech" : "CSS3"}
+            {"tech" : "Joomla CMS!"},
+            {"tech" : "Adobe Photoshop"}
         ]
     },
     {
         "title" : "Elite Mountain & Triangle Properties",
         "imgName" : "elite",
-        "description" : "This one page website was a project for two classes, HTML and CSS.",
+        "description" : "Realtor in Blowing Rock, NC. Website has been updated to match print materials per client request.",
         "techUsed" : [
-            {"tech" : "Adobe Photoshop"},
-            {"tech" : "HTML5"},
-            {"tech" : "CSS3"}
+            {"tech" : "Joomla! CMS"}
         ]
     },
     {

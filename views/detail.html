@@ -17,7 +17,7 @@
         <p>{{ detailItems[whichItem].description }}</p>
         <h3>Technology Used</h3>
         <ul>
-            <li ng-repeat="tech in detailItems.techUsed">{{ tech.tech }}</li>
+            <li ng-repeat="tech in detailItems[which].techUsed">{{ tech.tech }}</li>
         </ul>
     </div>
 
