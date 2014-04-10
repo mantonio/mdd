@@ -5,13 +5,13 @@
 </div>
 <!-- END row -->
 
-<div class="row" ng-repeat="row in fsItems | partition:9">
+<div class="row" ng-repeat="row in fsItems | partition:fsItems.length">
 
-    <div class="portfolio-item col-md-3" ng-repeat="item in row">
-        <a href="#/detail/{{ row.indexOf(item) }}">
-            <img class="img-responsive" ng-src="images/portfolio/{{ item.imgName }}.jpg" alt="{{ item.title }}" title="{{ item.title }}">
+    <div class="portfolio-item col-md-3" ng-repeat="fsItem in row">
+        <a href="#/detail/{{ row.indexOf(fsItem) }}">
+            <img class="img-responsive" ng-src="images/portfolio/{{ fsItem.imgName }}.jpg" alt="{{ fsItem.title }}" title="{{ fsItem.title }}">
             <span class="caption simple-caption">
-                <p>{{ item.title }}</p>
+                <p>{{ fsItem.title }}</p>
         </a>
     </div>
     <!-- END portfolio-item -->
@@ -28,13 +28,13 @@
     </div>
     <!-- END col-lg-12 -->
 
-    <div class="row" ng-repeat="row in workItems | partition:14">
+    <div class="row" ng-repeat="row in workItems | partition:workItems.length">
 
-            <div class="portfolio-item col-md-3" ng-repeat="item in row">
-                <a href="#/detail/{{ row.indexOf(item) }}">
-                    <img class="img-responsive" ng-src="images/portfolio/{{ item.imgName }}.jpg" alt="{{ item.title }}" title="{{ item.title }}">
+            <div class="portfolio-item col-md-3" ng-repeat="workItem in row">
+                <a href="#/detail/{{ row.indexOf(workItem) + fsItems.length}}">
+                    <img class="img-responsive" ng-src="images/portfolio/{{ workItem.imgName }}.jpg" alt="{{ workItem.title }}" title="{{ workItem.title }}">
                     <span class="caption simple-caption">
-                        <p>{{ item.title }}</p>
+                        <p>{{ workItem.title }}</p>
                 </a>
             </div>
             <!-- END portfolio-item -->
