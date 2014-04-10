@@ -1,7 +1,7 @@
 <div class="row">
 
     <div class="col-lg-12">
-        <h2 class="page-header">{{ detailItems[whichItem].title }}</h2>
+        <h2 class="page-header">{{ detailItems[itemSelected].title }}</h2>
     </div>
 
 </div>
@@ -9,15 +9,15 @@
 <div class="row">
 
     <div class="col-md-8">
-        <img class="img-responsive portfolioImg" ng-src="images/portfolio/{{ detailItems[whichItem].imgName }}.jpg" alt="{{ detailItems[whichItem].title }}">
+        <img class="img-responsive portfolioImg" ng-src="images/portfolio/{{ detailItems[itemSelected].imgName }}.jpg" alt="{{ detailItems[itemSelected].title }}">
     </div>
 
     <div class="col-md-4">
         <h3>Project Description</h3>
-        <p>{{ detailItems[whichItem].description }}</p>
+        <p>{{ detailItems[itemSelected].description }}</p>
         <h3>Technology Used</h3>
         <ul>
-            <li ng-repeat="tech in detailItems[which].techUsed">{{ tech.tech }}</li>
+            <li ng-repeat="tech in detailItems[itemSelected].techUsed">{{ tech.tech }}</li>
         </ul>
     </div>
 

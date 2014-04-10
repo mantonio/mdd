@@ -5,7 +5,7 @@ app.controller('DetailController', ['$scope', '$http', '$location', '$routeParam
         $http.get('js/app/detail.json').success(function(data) {
 
             $scope.detailItems = data;
-            $scope.whichItem = $routeParams.itemId;
+            $scope.itemSelected = $routeParams.itemId;
 
         });
 
