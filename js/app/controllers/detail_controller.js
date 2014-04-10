@@ -7,6 +7,26 @@ app.controller('DetailController', ['$scope', '$http', '$location', '$routeParam
             $scope.detailItems = data;
             $scope.itemSelected = $routeParams.itemId;
 
+            if($routeParams.itemId > 0) {
+
+                $scope.prevItem = Number($routeParams.itemId) - 1;
+
+            }else {
+
+                $scope.prevItem = $scope.detailItems.length - 1;
+
+            }
+
+             if($routeParams.itemId < $scope.detailItems.length - 1) {
+
+                $scope.nextItem = Number($routeParams.itemId) + 1;
+
+            }else {
+
+                $scope.nextItem = 0;
+
+            }
+
         });
 
     }
