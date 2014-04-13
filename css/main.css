@@ -95,7 +95,7 @@ blockquote p {
     text-shadow: 1px 1px 0 #000;
 }
 blockquote p::before, blockquote p::after {
-    font-family: Flaticon;
+    font-family: FlatIcon;
     content:"\e000";
 }
 blockquote p::after {
