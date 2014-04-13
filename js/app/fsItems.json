@@ -1,38 +1,95 @@
 [
     {
         "title" : "DWF Responsive Web Project",
-        "imgName" : "cammers"
+        "imgName" : "cammers",
+        "description" : "This one page website was a project for two classes, HTML and CSS.",
+        "techUsed" : [
+            {"tech" : "Adobe Photoshop"},
+            {"tech" : "HTML5"},
+            {"tech" : "CSS3"}
+        ]
     },
     {
         "title" : "DCG ESPN Poster",
-        "imgName" : "espn-ad"
+        "imgName" : "espn-ad",
+        "description" : "My first final class project at Full Sail. We were given a choice of logos and random slogans to create an advertisement for the chosen company.",
+        "techUsed" : [
+            {"tech" : "Adobe Photoshop"},
+            {"tech" : "Adobe Illustrator"}
+        ]
     },
     {
         "title" : "ADG ESPN Kiosk Interface Design",
-        "imgName" : "espn-kiosk"
+        "imgName" : "espn-kiosk",
+        "description" : "ESPN asked Full Sail Students to design an interface for an audio interactive fan kiosk. This kiosk will eventually be seen at sporting events using the design of a Full Sail student.",
+        "techUsed" : [
+            {"tech" : "Adobe Photoshop"},
+            {"tech" : "Omnigraffle"}
+        ]
     },
     {
         "title" : "SMS e-Learning App",
-        "imgName" : "hobbit"
+        "imgName" : "hobbit",
+        "description" : "The Streaming Media Servers e-Learning App Project was a media website featuring a Flash video player embedded in JavaScript. The video player needed to be designed and then built to be functional with the following controls... play, pause, microphone selection, web cam selection, volume control, and scrub bar for skipping to different times in the movie. Firebase was used for the Twitter and Google+ logins. My personal challenge (which I accomplished) was to not use any images.",
+        "techUsed" : [
+            {"tech" : "HTML5"},
+            {"tech" : "CSS3"},
+            {"tech" : "JavaScript"},
+            {"tech" : "jQuery"},
+            {"tech" : "Red5"}
+        ]
     },
     {
         "title" : "RMO Media Wesbite",
-        "imgName" : "metroid"
+        "imgName" : "metroid",
+        "description" : "I chose to do a website of classic video games for my Rich Media Optimization class project. This class obviously focused on media optimization for the web. This might seem a bit strange that a web designer/developer would ever do anything with audio and video, but it's not strange at all. Gaining the knowledge from this class definitely gives students in the web program an upper hand against the typical designer/developer.",
+        "techUsed" : [
+            {"tech" : "MockFlow"},
+            {"tech" : "Adobe Photoshop"},
+            {"tech" : "Adobe Premier Pro"},
+            {"tech" : "Adobe Audition"},
+            {"tech" : "Quicktime"},
+            {"tech" : "HTML5"},
+            {"tech" : "CSS3"},
+            {"tech" : "jQuery"}
+        ]
     },
     {
         "title" : "ADT Paintball Web Design",
-        "imgName" : "paintball"
+        "imgName" : "paintball",
+        "description" : "Our goal in this project was to show our understanding of the web design process. This is not a live site, but a graphic template of what the site would look like.",
+        "techUsed" : [
+            {"tech" : "Adobe Photoshop"},
+            {"tech" : "Omnigraffle"}
+        ]
     },
     {
         "title" : "WSP Responsive Web Design",
-        "imgName" : "primrose"
+        "imgName" : "primrose",
+        "description" : "Web Standards Project was a class solely for students to show everything we have learned up to that point. This project is a responsive 6 page website redesign.",
+        "techUsed" : [
+            {"tech" : "Adobe Photoshop"},
+            {"tech" : "Adobe Illustrator"},
+            {"tech" : "Omnigraffle"},
+            {"tech" : "HTML5"},
+            {"tech" : "CSS3"}
+        ]
     },
     {
         "title" : "ACG Mechanical Object Illustration",
-        "imgName" : "thermometer"
+        "imgName" : "thermometer",
+        "description" : "Requirement for this project was to take a detailed photo of a mechanical object and redraw it in Adobe Illustrator.",
+        "techUsed" : [
+            {"tech" : "Adobe Illustrator"}
+        ]
     },
     {
         "title" : "WDF One Page Web Design",
-        "imgName" : "tron"
+        "imgName" : "tron",
+        "description" : "Another Lab assignment for the CSS3 class. Again, we were given HTML, imagery, and text.",
+        "techUsed" : [
+            {"tech" : "CSS3"},
+            {"tech" : "Adobe Photoshop"}
+        ]
     }
 ]

@@ -1,58 +1,142 @@
 [
     {
         "title" : "Anthony's Pizza",
-        "imgName" : "anthonys"
+        "imgName" : "anthonys",
+        "description" : "Local pizza restaurant needed a simple website to show their menu. Users have the option to browse the website to view the menu or download a PDF version. Included Google maps integration.",
+        "techUsed" : [
+            {"tech" : "Joomla! CMS"},
+            {"tech" : "Adobe Illustrator"},
+            {"tech" : "Custom CSS"}
+        ]
     },
     {
         "title" : "Archer's Mountain Inn",
-        "imgName" : "archers"
+        "imgName" : "archers",
+        "description" : "Archer's Inn Restaurant & Lodge in Banner Elk, NC features fifteen hotel rooms with a fantastic restaurant and bar. Some features included an image slideshow, image gallery, embedded YouTube videos, Google Maps with driving directions, and an online reservation system. The website has been updated as of this year.",
+        "techUsed" : [
+            {"tech" : "Adobe Photoshop"},
+            {"tech" : "Joomla! CMS"},
+            {"tech" : "Custom CSS"}
+        ]
     },
     {
         "title" : "Boone Realty",
-        "imgName" : "boone_realty"
+        "imgName" : "boone_realty",
+        "description" : "Boone Realty, established in 1974, is one of the oldest real estate firms serving Boone, NC and its surrounding areas. Website features include random background images, Google Fonts, ",
+        "techUsed" : [
+            {"tech" : "Joomla! CMS"},
+            {"tech" : "Google Fonts"},
+            {"tech" : "Google Maps"},
+            {"tech" : "Custom CSS"}
+        ]
     },
     {
         "title" : "Distinctive Communications",
-        "imgName" : "distinctive"
+        "imgName" : "distinctive",
+        "description" : "Local marketing agency that features a variety of services such as event management, design for print, and design for web. Website features include custom Joomla CMS template design.",
+        "techUsed" : [
+            {"tech" : "Joomla! CMS"},
+            {"tech" : "Adobe Photoshop"},
+            {"tech" : "Custom CSS"}
+        ]
     },
     {
         "title" : "Donnelly Euro Footwear",
-        "imgName" : "donnelly"
+        "imgName" : "donnelly",
+        "description" : "Shoe retailer in Mount Dora, FL.",
+        "techUsed" : [
+            {"tech" : "Joomla CMS!"},
+            {"tech" : "Adobe Photoshop"},
+            {"tech" : "Custom CSS"}
+        ]
     },
     {
         "title" : "Elite Mountain & Triangle Properties",
-        "imgName" : "elite"
+        "imgName" : "elite",
+        "description" : "Realtor in Blowing Rock, NC. Website has been updated to match print materials per client request.",
+        "techUsed" : [
+            {"tech" : "Joomla! CMS"},
+            {"tech" : "Custom CSS"}
+        ]
     },
     {
         "title" : "Enterline & Russell Builders",
-        "imgName" : "erbuilders"
+        "imgName" : "erbuilders",
+        "description" : "Full-service custom residential and commercial construction company based in Blowing Rock, NC",
+        "techUsed" : [
+            {"tech" :"Joomla! CMS"},
+            {"tech" : "Custom CSS"}
+        ]
     },
     {
         "title" : "Hidden Creek Management",
-        "imgName" : "hcm"
+        "imgName" : "hcm",
+        "description" : "Sister site to boonerealtync.com. Same look and feel, but bigger functionality. They needed a custom search engine that would return rentals mathing certain criteria. Website features include random background images, custom search, Google maps, Google Fonts, random image slideshow",
+        "techUsed" : [
+            {"tech" : "Joomla! CMS"},
+            {"tech" : "Custom CSS"},
+            {"tech" : "Google Maps Integration"},
+            {"tech" : "Customized Property Search"}
+        ]
     },
     {
         "title" : "Instant Storage Online",
-        "imgName" : "iso"
+        "imgName" : "iso",
+        "description" : "ISO was a joint venture project selling online storage before the big names made cloud storage popular. Website features included Customer Login for account upgrades, custom form for product troubleshooting, product purchasing via PayPal.",
+        "techUsed" : [
+            {"tech" : "Joomla! CMS"},
+            {"tech" : "Adobe Photoshop"},
+            {"tech" : "Custom CSS"}
+        ]
     },
     {
         "title" : "Maple's Leather Fine Furniture",
-        "imgName" : "maplesLeather"
+        "imgName" : "maplesLeather",
+        "description" : "Fine leather furniture retailer in Banner Elk, NC. Website features include Furniture Gallery with browse by collection or type, Blogging system, Google Maps integration, Newsletter sign up.",
+        "techUsed" : [
+            {"tech" : "Joomla! CMS"},
+            {"tech" : "Custom CSS"}
+        ]
     },
     {
         "title" : "Mountain Bagels",
-        "imgName" : "bagels"
+        "imgName" : "bagels",
+        "description" : "Simple website for restaurant in Boone, NC specializing in bagels, breakfast, and lunch.",
+        "techUsed" : [
+            {"tech" : "Joomla! CMS"},
+            {"tech" : "Custom CSS"}
+        ]
     },
     {
         "title" : "Randall's Rescue",
-        "imgName" : "randalls"
+        "imgName" : "randalls",
+        "description" : "Non-profit organization with the purpose of preventing animal cruelty.",
+        "techUsed" : [
+            {"tech" : "Joomla! CMS"},
+            {"tech" : "Adobe Photoshop"},
+            {"tech" : "Custom CSS"}
+        ]
     },
     {
         "title" : "WaterCounter",
-        "imgName" : "watercounter"
+        "imgName" : "watercounter",
+        "description" : "WaterCounter is a potable water management system for boats and RVs. Had to take an old website built on a custom CMS and rebuild it as close as possible to the original per client request.",
+        "techUsed" : [
+            {"tech" : "Joomla! CMS"},
+            {"tech" : "Adobe Photoshop"},
+            {"tech" : "Custom CSS3"},
+            {"tech" : "Shopping Cart"},
+            {"tech" : "Checkout with PayPal"}
+        ]
     },
     {
         "title" : "Wrap-It Packaging",
-        "imgName" : "wrapIt"
+        "imgName" : "wrapIt",
+        "description" : "Distributor of all packaging products in Florence, SC, but specializes in Custom Polyethylene Plastics and Custom Paper Tubes. Simple informational website.",
+        "techUsed" : [
+            {"tech" : "Joomla! CMS"},
+            {"tech" : "Adobe Photoshop"},
+            {"tech" : "Custom CSS"}
+        ]
     }
 ]

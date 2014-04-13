@@ -266,6 +266,9 @@ DETAIL ITEM VIEW
 .btn.btn-right.item-nav {
     margin-right: 10px;
 }
+.related-item {
+    list-style-type: none;
+}
 /*
 ABOUT
 ********************************************** */

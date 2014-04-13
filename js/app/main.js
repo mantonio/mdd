@@ -10,7 +10,7 @@ app.config(function($routeProvider) {
             templateUrl: 'views/list.html',
             controller: 'ListController'
         })
-        .when('/detail/:itemId', {
+        .when('/detail/:itemId/:type', {
             templateUrl: 'views/detail.html',
             controller: 'DetailController'
         })
