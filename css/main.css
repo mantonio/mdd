@@ -8,11 +8,9 @@
 ************************************************/
 
 /*
-BODY ELEMENTS
+GENERAL ELEMENTS
 ********************************************** */
-
-/* General Elements */
- *:hover {
+*:hover {
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
@@ -32,14 +30,17 @@ body {
 .container {
     background-color: #2d2d2d;
 }
-div {
+a {
+    color: #acacac;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+a:hover {
+    color: #f2f2f2;
+    text-decoration: none
 }
 hr {
     border-top-color: lightsteelblue;
-}
-img {
-}
-a {
 }
 .portfolio-item {
     margin-bottom: 25px;
@@ -49,10 +50,11 @@ a {
 }
 /* All Headings */
  h1, h2, h3, h4, h5, h6 {
-    font-family:'Londrina Outline', cursive;
-    text-transform: uppercase;
-    letter-spacing: 2px;
+    font-family: 'Source Code Pro', sans-serif;
+    font-weight: 100;
+    font-variant: small-caps;
     color: lightsteelblue;
+    word-spacing: -12px;
 }
 /* Individual Headings */
  h1 {
@@ -74,77 +76,8 @@ h6 {
     font-size: 16rem;
 }
 .page-header {
-    text-shadow: 2px 2px 0 #000;
+    text-shadow: 2px 2px 0 black;
     border-bottom-color: lightsteelblue;
-}
-/* Text Formatting */
- p {
-}
-b {
-}
-blockquote {
-    float: right;
-    width: 375px;
-    margin-left: 10px;
-    border-left-color: lightsteelblue;
-}
-blockquote p {
-    font-family:'Nothing You Could Do', cursive;
-    color: lightsteelblue;
-    font-size: 26rem;
-    text-shadow: 1px 1px 0 #000;
-}
-blockquote p::before, blockquote p::after {
-    font-family: FlatIcon;
-    content:"\e000";
-}
-blockquote p::after {
-    content:"\e001";
-}
-cite {
-}
-em {
-}
-i {
-}
-strong {
-}
-small {
-}
-/* All Lists */
- dl, ol, ul {
-}
-/* Definition Lists */
- dl {
-}
-dt {
-}
-dd {
-}
-/* Unordered Lists */
- ul {
-}
-ul li {
-}
-/* Tables */
- table {
-}
-caption {
-}
-tr {
-}
-/* Table Head */
- thead {
-}
-th {
-}
-/* Table Body */
- tbody {
-}
-td {
-}
-/* Table Foot */
- tfoot {
 }
 /*
 HEADER / MAIN NAV
@@ -153,10 +86,12 @@ HEADER / MAIN NAV
     text-transform: lowercase;
     margin-top: 28px;
     line-height: 0;
-    text-shadow: 2px 2px 0 #000;
+    text-shadow: 2px 2px 0 black;
     font-weight: bolder;
     font-size: 64rem;
     color: #acacac;
+    font-family: "Londrina Outline", sans-serif;
+    font-variant: normal;
 }
 #mainLogo:hover {
     color: #fff;
@@ -276,6 +211,67 @@ ABOUT
     float: left;
     width: 300px;
     margin-right: 10px;
+}
+blockquote {
+    float: right;
+    width: 375px;
+    margin-left: 10px;
+    border-left-color: lightsteelblue;
+}
+blockquote p {
+    font-family:'Nothing You Could Do', cursive;
+    color: lightsteelblue;
+    font-size: 26rem;
+    text-shadow: 1px 1px 0 #000;
+}
+blockquote p::before, blockquote p::after {
+    font-family: FlatIcon;
+    content:"\e004";
+}
+blockquote p::after {
+    content:"\e006";
+}
+/*
+CONTACT
+********************************************** */
+input, select {
+    margin-bottom: 20px;
+}
+#contact-form p {
+    margin-bottom: 0;
+}
+#contact-form p:first-child {
+    margin-top: 50px;
+}
+#contact-form {
+    width: 60%;
+}
+#contact-info {
+    width: 40%;
+}
+#contacts, #social-icons {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+#social-icons li {
+    margin-right: 10px;
+}
+#contact-info #contacts, #contact-info #social-icons {
+    list-style-type: none;
+}
+#contacts li::before {
+    font-family: FlatIcon;
+    color: lightsteelblue;
+}
+#contacts li:first-child::before {
+    content: "\e001";
+}
+#contacts li:nth-child(2)::before {
+    content: "\e000";
+}
+#contacts li:last-child::before {
+    content: "\e002";
 }
 /*
 OTHER

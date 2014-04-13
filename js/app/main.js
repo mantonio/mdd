@@ -21,5 +21,8 @@ app.config(function($routeProvider) {
         .when('/portfolio', {
             templateUrl: 'views/list_view.html',
             controller: 'ListController'
-        });
+        })
+        .when('/contact', {
+            templateUrl: 'views/contact_view.html'
+        })
 });

@@ -9,9 +9,27 @@
     font-family: Flaticon;
     font-style: normal;
 }
-.flaticon-left63:before {
+.flaticon-arroba2:before {
     content:"\e000";
 }
-.flaticon-right50:before {
+.flaticon-call5:before {
     content:"\e001";
+}
+.flaticon-email20:before {
+    content:"\e002";
+}
+.flaticon-facebook6:before {
+    content:"\e003";
+}
+.flaticon-left63:before {
+    content:"\e004";
+}
+.flaticon-linkedin4:before {
+    content:"\e005";
+}
+.flaticon-right50:before {
+    content:"\e006";
+}
+.flaticon-twitter20:before {
+    content:"\e007";
 }

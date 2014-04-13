@@ -1,40 +1,37 @@
-<!-- YOU CAN REMOVE THE STYLE BELOW -->
-<style>
-p{padding:0;margin:0;}
-body{padding:0;margin:0;}
-</style>
-<!-- STYLE ONLY FOR DEMO - REMOVE -->
-
-<form action="mail.php" method="POST">
-<p>Name</p> <input type="text" name="name">
-<p>Email</p> <input type="text" name="email">
-<p>Phone</p> <input type="text" name="phone">
-
-<p>Request Phone Call:</p>
-Yes:<input type="checkbox" value="Yes" name="call"><br />
-No:<input type="checkbox" value="No" name="call"><br />
-
-<p>Website</p> <input type="text" name="website">
-
-<p>Priority</p>
-<select name="priority" size="1">
-<option value="Low">Low</option>
-<option value="Normal">Normal</option>
-<option value="High">High</option>
-<option value="Emergency">Emergency</option>
-</select>
-<br />
-
-<p>Type</p>
-<select name="type" size="1">
-<option value="update">Website Update</option>
-<option value="change">Information Change</option>
-<option value="addition">Information Addition</option>
-<option value="new">New Products</option>
-</select>
-<br />
-
-<p>Message</p><textarea name="message" rows="6" cols="25"></textarea><br />
-<input type="submit" value="Send"><input type="reset" value="Clear">
+<h2 class="page-header">Contact</h2>
+<form id="contact-form" class="pull-left" action="mail.php" method="POST">
+    <p>Full Name</p>
+    <input type="text" name="name" placeholder="John Smith" required>
+    <p>Email</p>
+    <input type="text" name="email" placeholder="you@email.com" required>
+    <p>Phone</p>
+    <input type="text" name="phone" placeholder="407-123-4567">
+    <p>Message</p>
+    <textarea name="message" rows="6" cols="25"></textarea>
+    <br />
+    <input type="submit" value="Send">
+    <input type="reset" value="Clear">
 </form>
 
+<aside id="contact-info" class="pull-left">
+    <h3 class="page-heading">Get in touch</h3>
+    <p>Please feel free to contact me however you like. Use the convenient form to the left, email me, call me, or snail mail me if you have specific requirements, or even if you just want to discuss your project with me. You may also contact me using the social networks listed below.</p>
+
+    <ul id="contacts">
+        <li>(407) 900-1WEB or (407) 900-1932</li>
+        <li><a href="mailto:matt@mantonio.com">matt@<span class="firebrick">m</span>antonio.com</a>
+        </li>
+        <li>Matt Antonio
+            <br />PO Box 803
+            <br />Goldenrod, FL 32733</li>
+    </ul>
+
+    <ul id="social-icons">
+        <li class="pull-left"><a href="http://www.linkedin.com/pub/matt-antonio/20/990/9b1" title="View my profile on LinkedIn"><i class="glyph-icon flaticon-linkedin4"></i></a>
+        </li>
+        <li class="pull-left"><a href="https://twitter.com/_mattantonio_" title="Follow me on Twitter"><i class="glyph-icon flaticon-twitter20"></i></a>
+        </li>
+        <li class="pull-left"><a href="http://www.facebook.com/mattlantonio" title="Find me on Facebook"><i class="glyph-icon flaticon-facebook6"></i></a>
+        </li>
+    </ul>
+</aside>
