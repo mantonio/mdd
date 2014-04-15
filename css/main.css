@@ -10,7 +10,7 @@
 /*
 GENERAL ELEMENTS
 ********************************************** */
-*:hover {
+ *:hover {
     -webkit-transition: all 0.3s ease-in;
     -moz-transition: all 0.3s ease-in;
     transition: all 0.3s ease-in;
@@ -50,7 +50,7 @@ hr {
 }
 /* All Headings */
  h1, h2, h3, h4, h5, h6 {
-    font-family: 'Source Code Pro', sans-serif;
+    font-family:'Source Code Pro', sans-serif;
     font-weight: 100;
     font-variant: small-caps;
     color: lightsteelblue;
@@ -90,7 +90,7 @@ HEADER / MAIN NAV
     font-weight: bolder;
     font-size: 64rem;
     color: #acacac;
-    font-family: "Londrina Outline", sans-serif;
+    font-family:"Londrina Outline", sans-serif;
     font-variant: normal;
 }
 #mainLogo:hover {
@@ -107,7 +107,7 @@ HEADER / MAIN NAV
     border-top: none;
 }
 #mainNav.nav.navbar-right li {
-    margin-right: 50px;
+    margin-right: 20px;
 }
 .#mainNav.nav.navbar-right li:last-child {
     margin-right: 0;
@@ -234,20 +234,24 @@ blockquote p::after {
 /*
 CONTACT
 ********************************************** */
-input, select {
+form {
+    width: 100%;
+}
+.input-container {
+    width: 100%;
     margin-bottom: 20px;
+    display: flex;
 }
-#contact-form p {
-    margin-bottom: 0;
+input[type="text"], textarea {
+    flex-grow: 1;
+    padding: 5px;
 }
-#contact-form p:first-child {
-    margin-top: 50px;
-}
-#contact-form {
-    width: 60%;
-}
-#contact-info {
-    width: 40%;
+label {
+    width: 80px;
+    text-align: right;
+    display: block;
+    float: left;
+    margin: auto 5px auto 0;
 }
 #contacts, #social-icons {
     margin: 0;
@@ -265,13 +269,13 @@ input, select {
     color: lightsteelblue;
 }
 #contacts li:first-child::before {
-    content: "\e001";
+    content:"\e001";
 }
 #contacts li:nth-child(2)::before {
-    content: "\e000";
+    content:"\e000";
 }
 #contacts li:last-child::before {
-    content: "\e002";
+    content:"\e002";
 }
 /*
 OTHER

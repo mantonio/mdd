@@ -2,28 +2,28 @@ app.controller('DetailController', ['$scope', '$http', '$location', '$routeParam
     function($scope, $http, $location, $routeParams) {
 
         //Get data from JSON file for Detail Page
-        $http.get('js/app/'+$routeParams.type+'.json').success(function(data) {
+        $http.get('js/app/' + $routeParams.type + '.json').success(function(data) {
 
             $scope.detailItems = data;
             $scope.itemSelected = $routeParams.itemId;
 
             //Navigation for portfolio item in detail view
-            if($routeParams.itemId > 0 ) {
+            if ($routeParams.itemId > 0) {
 
                 $scope.prevItem = Number($routeParams.itemId) - 1;
 
-            }else {
+            } else {
 
                 $scope.prevItem = $scope.fsItems.length - 1;
                 $scope.prevItem = $scope.workItems.length - 1;
 
             }
 
-             if($routeParams.itemId < $scope.fsItems.length - 1 || $routeParams.itemId < $scope.workItems.length - 1) {
+            if ($routeParams.itemId < $scope.fsItems.length - 1 || $routeParams.itemId < $scope.workItems.length - 1) {
 
                 $scope.nextItem = Number($routeParams.itemId) + 1;
 
-            }else {
+            } else {
 
                 $scope.nextItem = 0;
 
