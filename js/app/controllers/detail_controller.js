@@ -7,7 +7,6 @@ app.controller('DetailController', ['$scope', '$http', '$location', '$routeParam
             $scope.detailItems = data;
             $scope.itemSelected = $routeParams.itemId;
             $scope.itemType = $routeParams.type;
-            // console.log($scope.itemType);
 
             //Navigation for portfolio item in detail view
             if ($routeParams.itemId > 0) {
@@ -16,12 +15,12 @@ app.controller('DetailController', ['$scope', '$http', '$location', '$routeParam
 
             } else {
 
-                $scope.prevItem = $scope.itemType.length - 1;
+                $scope.prevItem = data.length - 1;
                 //$scope.prevItem = $scope.workItems.length - 1;
 
             }
 
-            if ($routeParams.itemId < $scope.itemType.length - 1 /*|| $routeParams.itemId < $scope.workItems.length - 1*/) {
+            if ($routeParams.itemId < data.length - 1 /*|| $routeParams.itemId < $scope.workItems.length - 1*/) {
 
                 $scope.nextItem = Number($routeParams.itemId) + 1;
 
@@ -30,14 +29,19 @@ app.controller('DetailController', ['$scope', '$http', '$location', '$routeParam
                 $scope.nextItem = 0;
 
             }
+  $scope.randNum = Math.floor(Math.random() * data.length);
 
-            //Get random images for the detail view
-            $scope.random = function() {
-                var num = Math.floor(Math.random() * $scope.itemType.length);
-                return num;
-            }
 
         });
-
+//Get random images for the detail view
+            $scope.random = function() {
+                return $scope.randNum;
+            }
+            
+                
+                
+              
+                
+            
     }
 ]);

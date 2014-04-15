@@ -18,8 +18,8 @@
         <ul>
             <li ng-repeat="tech in detailItems[itemSelected].techUsed">{{ tech.tech }}</li>
         </ul>
-        <a href="#/detail/{{ prevItem }}/{{ itemType }}" class="btn btn-left item-nav">&lt;&lt; Prev</a>
-        <a href="#/detail/{{ nextItem }}/" class="btn btn-right item-nav">&gt;&gt; Next</a>
+        <a ng-href="#/detail/{{ prevItem }}/{{ itemType }}" class="btn btn-left item-nav">&lt;&lt; Prev</a>
+        <a ng-href="#/detail/{{ nextItem }}/{{ itemType }}" class="btn btn-right item-nav">&gt;&gt; Next</a>
     </div><!-- END col-md-4 -->
 
 </div><!-- END row -->
@@ -31,7 +31,7 @@
     </div><!-- END col-lg-12 -->
 
     <div class="col-md-3" ng-repeat="relatedItem in detailItems | orderBy:random | limitTo:4">
-        <a href="#/detail/{{ $index }}/">
+        <a href="#/detail/{{ $index }}/{{ itemType }}">
             <img class="img-responsive related-item" ng-src="images/portfolio/{{ relatedItem.imgName }}.jpg" alt="{{ relatedItem.title }}" title="{{ relatedItem.title }}">
         </a>
     </div><!-- END col-md-3 -->
