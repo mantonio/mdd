@@ -1,7 +1,7 @@
 <div class="row">
     <div class="col-md-8">
         <h2 class="page-header">Contact</h2>
-        <form id="contact-form" class="pull-left" action="../contact.php" method="POST">
+        <form id="contact-form" action="../contact.php" method="POST">
             <div class="input-container">
                 <label>Full Name</label>
                 <input type="text" name="name" placeholder="John Smith" required>
@@ -22,26 +22,28 @@
                 <textarea name="message" rows="6" cols="25"></textarea>
             </div>
 
-            <div class="input-container">
+            <div class="input-container pull-right">
                 <label></label>
-                <input type="submit" value="Send">
+                <input id="submit-btn" class="btn btn-default" type="submit" value="Send">
             </div>
         </form>
     </div>
     <!-- END col-md-8 -->
 
     <div class="col-md-4">
-        <aside id="contact-info" class="pull-left">
+        <aside id="contact-info">
             <h3 class="page-heading">Get in touch</h3>
             <p>Please feel free to contact me however you like. Use the convenient form to the left, email me, call me, or snail mail me if you have specific requirements, or even if you just want to discuss your project with me. You may also contact me using the social networks listed below.</p>
 
             <ul id="contacts">
-                <li>(407) 900-1WEB or (407) 900-1932</li>
-                <li><a href="mailto:matt@mantonio.com">matt@<span class="firebrick">m</span>antonio.com</a>
+                <li class="contact">(407) 900-1WEB or (407) 900-1932</li>
+                <li class="contact"><a href="mailto:matt@mantonio.com">matt@<span class="firebrick">m</span>antonio.com</a>
                 </li>
-                <li>Matt Antonio
-                    <br />PO Box 803
-                    <br />Goldenrod, FL 32733</li>
+                <li class="contact">Matt Antonio
+                    <br>
+                    PO Box 803
+                    <br>
+                    Goldenrod, FL 32733</li>
             </ul>
 
             <ul id="social-icons">

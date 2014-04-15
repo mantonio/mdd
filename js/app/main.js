@@ -25,4 +25,7 @@ app.config(function($routeProvider) {
         .when('/contact', {
             templateUrl: 'views/contact_view.html'
         })
+        .when('/contact.php', {
+            templateUrl: 'views/contact.php'
+        });
 });

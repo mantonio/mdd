@@ -234,7 +234,7 @@ blockquote p::after {
 /*
 CONTACT
 ********************************************** */
-form {
+ form {
     width: 100%;
 }
 .input-container {
@@ -245,6 +245,24 @@ form {
 input[type="text"], textarea {
     flex-grow: 1;
     padding: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border: none;
+}
+input[type="text"]:focus, textarea:focus {
+    outline: 0;
+    box-shadow: 3px 3px 0 lightsteelblue;
+}
+::-webkit-input-placeholder {
+    color: rgba(248, 248, 255, 0.1);
+}
+:-moz-placeholder { /* Firefox 18- */
+    color: rgba(248, 248, 255, 0.1);
+}
+::-moz-placeholder { /* Firefox 19+ */
+    color: rgba(248, 248, 255, 0.1);
+}
+:-ms-input-placeholder {
+    color: rgba(248, 248, 255, 0.1);
 }
 label {
     width: 80px;
@@ -252,14 +270,46 @@ label {
     display: block;
     float: left;
     margin: auto 5px auto 0;
+    color: lightsteelblue;
+}
+#contact-info {
+    margin-top: 50px;
+    border-left: 1px solid lightsteelblue;
+    padding: 0 10px;
 }
 #contacts, #social-icons {
     margin: 0;
     padding: 0;
     width: 100%;
 }
+#submit-btn.btn {
+    border-radius: 0;
+    flex-grow: 1;
+    background-color: lightsteelblue;
+    color: #2d2d2d;
+    font-weight: 700;
+    border-color: transparent;
+    font-size: 24rem;
+}
+#submit-btn.btn:hover {
+    background-color: transparent;
+    color: lightsteelblue;
+    border-color: lightsteelblue;
+}
+#social-icons {
+    margin-left: 25px;
+}
 #social-icons li {
     margin-right: 10px;
+}
+.flaticon-linkedin4:hover {
+    color: #1c87bd;
+}
+.flaticon-twitter20:hover {
+    color: #55acee;
+}
+.flaticon-facebook6:hover {
+    color: #3b5998;
 }
 #contact-info #contacts, #contact-info #social-icons {
     list-style-type: none;
@@ -267,6 +317,7 @@ label {
 #contacts li::before {
     font-family: FlatIcon;
     color: lightsteelblue;
+    margin-right: 5px;
 }
 #contacts li:first-child::before {
     content:"\e001";
@@ -276,6 +327,9 @@ label {
 }
 #contacts li:last-child::before {
     content:"\e002";
+    margin-bottom: 30px;
+    display: block;
+    float: left;
 }
 /*
 OTHER
