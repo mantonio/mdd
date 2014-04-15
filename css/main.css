@@ -134,10 +134,10 @@ PORTFOLIO
  .portfolio-item {
     margin-bottom: 25px;
 }
-.portfolio-item img.img-responsive, #projectImgs .portfolio-item {
+.portfolio-item img.img-responsive, #projectImgs .related-item {
     box-shadow: 3px 3px 0 #494949, 6px 6px 0 #000;
 }
-.portfolio-item img.img-responsive:hover, #projectImgs .portfolio-item:hover {
+.portfolio-item img.img-responsive:hover, #projectImgs .related-item:hover {
     box-shadow: 3px 3px 0 #494949, 6px 6px 0 firebrick;
 }
 .portfolio-item {
@@ -166,6 +166,9 @@ PORTFOLIO
     line-height: 25pt;
     text-align: center;
     display: none;
+}
+.caption.simple-caption p {
+    font-weight: 300;
 }
 .portfolio-item:hover .simple-caption {
     opacity: 1;
@@ -200,9 +203,6 @@ DETAIL ITEM VIEW
 }
 .btn.btn-right.item-nav {
     margin-right: 10px;
-}
-.related-item {
-    list-style-type: none;
 }
 /*
 ABOUT

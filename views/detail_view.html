@@ -9,7 +9,7 @@
 <div class="row">
     <div class="col-md-8">
         <img class="img-responsive portfolioImg" ng-src="images/portfolio/{{ detailItems[itemSelected].imgName }}.jpg" alt="{{ detailItems[itemSelected].title }}">
-    </div>
+    </div><!-- END col-md-8 -->
 
     <div class="col-md-4">
         <h3>Project Description</h3>
@@ -20,41 +20,20 @@
         </ul>
         <a href="#/detail/{{ prevItem }}" class="btn btn-left item-nav">&lt;&lt; Prev</a>
         <a href="#/detail/{{ nextItem }}" class="btn btn-right item-nav">&gt;&gt; Next</a>
-    </div>
+    </div><!-- END col-md-4 -->
 
-</div>
+</div><!-- END row -->
+
 <div id="projectImgs" class="row">
 
     <div class="col-lg-12">
         <h3 class="page-header">Related Projects</h3>
-    </div>
+    </div><!-- END col-lg-12 -->
 
-    <div class="col-sm-3 col-xs-6">
-        <ul class="related-item">
-            <li ng-repeat="relatedItem in detailItems | orderBy: random | limitTo:4">
-                <a href="#/detail/">
-                    <img class="img-responsive portfolio-item" ng-src="images/portfolio/{{ relatedItem.imgName }}.jpg">
-                </a>
-            </li>
-        </ul>
-    </div>
-
-    <!-- <div class="col-sm-3 col-xs-6">
-        <a href="#">
-            <img class="img-responsive portfolio-item" src="images/portfolio/primrose.jpg">
+    <div class="col-md-3" ng-repeat="relatedItem in detailItems | orderBy:random | limitTo:4">
+        <a href="#/detail/{{ $index }}/{{ type }}">
+            <img class="img-responsive related-item" ng-src="images/portfolio/{{ relatedItem.imgName }}.jpg" alt="{{ relatedItem.title }}" title="{{ relatedItem.title }}">
         </a>
-    </div>
+    </div><!-- END col-md-3 -->
 
-    <div class="col-sm-3 col-xs-6">
-        <a href="#">
-            <img class="img-responsive portfolio-item" src="images/portfolio/paintball.jpg">
-        </a>
-    </div>
-
-    <div class="col-sm-3 col-xs-6">
-        <a href="#">
-            <img class="img-responsive portfolio-item" src="images/portfolio/metroid.jpg">
-        </a>
-    </div> -->
-
-</div>
+</div><!-- END projectImgs -->
