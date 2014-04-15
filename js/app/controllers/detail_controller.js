@@ -7,6 +7,7 @@ app.controller('DetailController', ['$scope', '$http', '$location', '$routeParam
             $scope.detailItems = data;
             $scope.itemSelected = $routeParams.itemId;
             $scope.itemType = $routeParams.type;
+            // console.log($scope.itemType);
 
             //Navigation for portfolio item in detail view
             if ($routeParams.itemId > 0) {

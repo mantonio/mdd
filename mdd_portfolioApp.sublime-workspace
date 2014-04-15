@@ -1,0 +1,736 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"font-",
+				"font-weight"
+			],
+			[
+				"font",
+				"font-style"
+			],
+			[
+				"margin",
+				"margin-bottom"
+			],
+			[
+				"$sc",
+				"$scope	AngularJS"
+			],
+			[
+				"detail",
+				"detailItems"
+			],
+			[
+				"rb",
+				"rgba()"
+			],
+			[
+				"detai",
+				"detailItems"
+			],
+			[
+				"CSS",
+				"CSS3"
+			],
+			[
+				"item",
+				"itemId"
+			],
+			[
+				"$route",
+				"$routeParams	AngularJS"
+			],
+			[
+				"list",
+				"list-style-type"
+			],
+			[
+				"Ill",
+				"Illustrator"
+			],
+			[
+				"$lo",
+				"$location	AngularJS"
+			],
+			[
+				"main",
+				"mainController"
+			],
+			[
+				"$rout",
+				"$routeParams	AngularJS"
+			],
+			[
+				"con",
+				"controller	AngularJS"
+			],
+			[
+				"ngV",
+				"ng-view	AngularJS"
+			],
+			[
+				"border-bottom",
+				"border-bottom-right-radius"
+			],
+			[
+				"reco",
+				"recording"
+			],
+			[
+				"start",
+				"startRecording"
+			],
+			[
+				"pr",
+				"provider"
+			],
+			[
+				"c",
+				"c11321"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"background",
+				"background-color"
+			],
+			[
+				"getMi",
+				"getMicrophones"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"mic",
+				"mic-group"
+			],
+			[
+				"play",
+				"playPause"
+			],
+			[
+				"s",
+				"startPlaying"
+			],
+			[
+				"pla",
+				"playPause"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"onmo",
+				"onmouseover	Attr"
+			],
+			[
+				"fade",
+				"fadeOut"
+			],
+			[
+				"fla",
+				"flaticon-play36"
+			],
+			[
+				"margin-",
+				"margin-top"
+			],
+			[
+				"rgb",
+				"rgba()"
+			],
+			[
+				"ac",
+				"acbb39"
+			],
+			[
+				"backgr",
+				"background-color"
+			],
+			[
+				"border-top",
+				"border-top-right-radius"
+			],
+			[
+				"Jo",
+				"Josefin-Sans"
+			],
+			[
+				"border",
+				"border-bottom"
+			],
+			[
+				"bakc",
+				"background-color"
+			],
+			[
+				"li",
+				"li	Tag"
+			],
+			[
+				"backg",
+				"background-color"
+			],
+			[
+				"fig",
+				"figcaption"
+			],
+			[
+				"mo",
+				"modernizr"
+			],
+			[
+				"text-",
+				"text-transform"
+			],
+			[
+				"alert",
+				"alert-danger"
+			],
+			[
+				"user",
+				"userAuth"
+			],
+			[
+				"login",
+				"loginView"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"passwo",
+				"passwordHasher"
+			],
+			[
+				"set",
+				"setFlash"
+			],
+			[
+				"cabin",
+				"cabin_item"
+			],
+			[
+				"end",
+				"endforeach"
+			],
+			[
+				"admin",
+				"admin_area"
+			],
+			[
+				"cb",
+				"cabin_item"
+			],
+			[
+				"cabin_",
+				"cabin_id"
+			],
+			[
+				"create",
+				"create_rental_form"
+			],
+			[
+				"is_a",
+				"is_array"
+			],
+			[
+				"cab",
+				"cabin"
+			],
+			[
+				"for",
+				"foreach	foreach …"
+			],
+			[
+				"border-b",
+				"border-bottom"
+			],
+			[
+				"padding",
+				"padding-top"
+			],
+			[
+				"inli",
+				"inline-block"
+			],
+			[
+				"uploa",
+				"upload_dir"
+			],
+			[
+				"upload",
+				"upload_dir"
+			],
+			[
+				"isnu",
+				"is_numeric"
+			],
+			[
+				"im_",
+				"img_medium_config"
+			],
+			[
+				"img",
+				"img_resize_config"
+			],
+			[
+				"var",
+				"var_dump"
+			],
+			[
+				"uplo",
+				"upload_data"
+			],
+			[
+				"che",
+				"check_file_upload"
+			],
+			[
+				"up",
+				"upload_model"
+			],
+			[
+				"price",
+				"price"
+			],
+			[
+				"file",
+				"file_title_data"
+			],
+			[
+				"do",
+				"do_upload"
+			],
+			[
+				"uplaod",
+				"upload_path"
+			],
+			[
+				"sess",
+				"session_destroy"
+			],
+			[
+				"is",
+				"is_logged_in"
+			],
+			[
+				"form",
+				"form_input"
+			],
+			[
+				"sub",
+				"submit"
+			],
+			[
+				"fon",
+				"font-style"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"tab",
+				"table-cell"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"inl",
+				"inline-block"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"min-",
+				"min-height"
+			],
+			[
+				"base_",
+				"base_url"
+			],
+			[
+				"def",
+				"default_controller"
+			],
+			[
+				"get_",
+				"get_cabins"
+			],
+			[
+				"l",
+				"link	Tag"
+			],
+			[
+				"news",
+				"news_model"
+			],
+			[
+				"vi",
+				"view"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 313.0,
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 482.0
+	},
+	"console":
+	{
+		"height": 160.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '7183a2d3e96f11eeadd761d777e62404' + 'e330c659d4bb41d3bdf022e94cab3cd0'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://sublime.wbond.net/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/matt/Desktop/Full_Sail/MDD/app/index.html",
+		"/Users/matt/Desktop/Full_Sail/MDD/app/views/detail_view.html",
+		"/Users/matt/Desktop/Full_Sail/MDD/app/views/about_view.html",
+		"/Users/matt/Desktop/Full_Sail/MDD/app/js/app/controllers/detail_controller.js",
+		"/Users/matt/Desktop/Full_Sail/MDD/app/js/app/fsItems.json",
+		"/Users/matt/Desktop/Full_Sail/MDD/app/css/main.css",
+		"/Users/matt/Desktop/Full_Sail/MDD/app/js/app/workItems.json",
+		"/Users/matt/Desktop/Full_Sail/MDD/app/views/contact_view.html",
+		"/Users/matt/Desktop/Full_Sail/MDD/app/contact.php",
+		"/Users/matt/Desktop/Full_Sail/MDD/app/js/app/main.js",
+		"/Users/matt/Desktop/Full_Sail/MDD/app/css/flaticon.css",
+		"/Users/matt/Desktop/Full_Sail/MDD/app/views/detail.html",
+		"/Users/matt/Desktop/Full_Sail/MDD/app/Flaticon_WebFont (2)/flaticon.html",
+		"/Users/matt/Desktop/Full_Sail/MDD/app/flaticon.html",
+		"/Users/matt/Desktop/My_Stuff/PHP Contact Forms/Unstyled_Framework_Form/unstyled_framework_form.htm",
+		"/Users/matt/Desktop/My_Stuff/PHP Contact Forms/Complete Tutorial Example/form.html",
+		"/Users/matt/Desktop/Full_Sail/MDD/app/js/app/detail.json",
+		"/Users/matt/Library/Application Support/Sublime Text 3/Packages/Default/Preferences.sublime-settings",
+		"/Users/matt/Desktop/Full_Sail/MDD/app/views/list.html",
+		"/Users/matt/Desktop/Full_Sail/MDD/app/js/app/controllers/list_controller.js",
+		"/Users/matt/Desktop/Full_Sail/MDD/app/js/app/filters/pfItem_filter.js",
+		"/Applications/MAMP/htdocs/mantonioSMS/js/site.js",
+		"/Users/matt/Desktop/Full_Sail/MDD/app/js/app/controllers/nav_controller.js",
+		"/Users/matt/Desktop/Full_Sail/MDD/app/views/about.html",
+		"/Users/matt/Desktop/Full_Sail/MDD/app/js/app/directives/activeLink_directive.js",
+		"/Users/matt/Desktop/Full_Sail/SFW1/main.js",
+		"/Users/matt/Desktop/Full_Sail/SFW2/antonio_matt_FINAL/js/main.js",
+		"/Users/matt/Desktop/Full_Sail/MDD/app/js/angular/angular.js",
+		"/Users/matt/Desktop/Ex_Files_UaR_AngularJS/Exercise Files/02_01/start/angular/index.html",
+		"/Users/matt/Desktop/Ex_Files_UaR_AngularJS/Exercise Files/02_01/start/angular/js/controllers.js",
+		"/Users/matt/Desktop/Ex_Files_UaR_AngularJS/Exercise Files/02_01/start/index.html",
+		"/Users/matt/Desktop/Ex_Files_UaR_AngularJS/Exercise Files/02_01/start/css/style.css",
+		"/Users/matt/Desktop/Ex_Files_UaR_AngularJS/Exercise Files/02_01/start/data.json",
+		"/Users/matt/Desktop/Ex_Files_UaR_AngularJS/Exercise Files/01_03/start/angular/js/controllers.js",
+		"/Users/matt/Desktop/Ex_Files_UaR_AngularJS/Exercise Files/01_03/start/angular/index.html",
+		"/Users/matt/Desktop/Ex_Files_UaR_AngularJS/Exercise Files/01_03/start/angular/lib/angular/angular.min.js",
+		"/Users/matt/Library/Application Support/Sublime Text 3/Packages/HTML-CSS-JS Prettify/.jsbeautifyrc",
+		"/Users/matt/Desktop/Full_Sail/MDD/app/views/main.html",
+		"/Users/matt/Desktop/Full_Sail/MDD/app/views/portfolio-item.html",
+		"/Users/matt/Desktop/Full_Sail/MDD/app/portfolio-item.html",
+		"/Users/matt/Desktop/Angular_Tutorials/AngularJSDemos/AngularJSDemos/tut_2/index.html",
+		"/Users/matt/Desktop/Full_Sail/MDD/app/css/bootstrap.css",
+		"/Users/matt/Desktop/Angular_Tutorials/AngularJSDemos/angularjs-skeleton-app/js/tv-premieres-app/controllers/mainController.js",
+		"/Users/matt/Desktop/Angular_Tutorials/AngularJSDemos/angularjs-skeleton-app/js/tv-premieres-app/app.js",
+		"/Users/matt/Desktop/Angular_Tutorials/AngularJSDemos/angularjs-skeleton-app/index.html",
+		"/Users/matt/Desktop/Full_Sail/MDD/app/js/app.js",
+		"/Users/matt/Desktop/Angular_Tutorials/AngularJSDemos/AngularJSDemos/app.js",
+		"/Users/matt/Desktop/Angular_Tutorials/AngularJSDemos/AngularJSDemos/js/main.js",
+		"/Users/matt/Desktop/Angular_Tutorials/AngularJSDemos/AngularJSDemos/index.html",
+		"/Users/matt/Desktop/Full_Sail/MDD/app/js/controllers/mainController.js",
+		"/Users/matt/Desktop/Full_Sail/MDD/app/server.js",
+		"/Users/matt/Desktop/Full_Sail/MDD/app/css/custom.css",
+		"/Applications/MAMP/htdocs/mantonioSMS/css/main.css",
+		"/Users/matt/Desktop/Full_Sail/MDD/app/js/controllers/controller.js",
+		"/Users/matt/Desktop/Full_Sail/MDD/app/js/controllers/controllers.js",
+		"/Users/matt/Desktop/Full_Sail/MDD/app/css/portfolio-item.css",
+		"/Users/matt/Desktop/Full_Sail/MDD/app/index2.html",
+		"/Applications/MAMP/htdocs/mantonioSMS/index.html",
+		"/Applications/MAMP/htdocs/mantonioSMS/js/player.js",
+		"/Applications/MAMP/htdocs/mantonioSMS/css/jquery.dropdown.css",
+		"/Applications/MAMP/htdocs/mantonioSMS/css/flaticon.css",
+		"/Applications/MAMP/htdocs/mantonioSMS/js/knockout-3.1.0.js",
+		"/Users/matt/Desktop/Full_Sail/SFW1/PWA-1306/antoniomatt/wk4/goal11_assign_FINAL_AntonioMatt/js/main.js",
+		"/Users/matt/Desktop/johndyer-mediaelement-4af8088/src/js/mep-player.js",
+		"/Users/matt/Desktop/johndyer-mediaelement-4af8088/build/mediaelementplayer.js",
+		"/Users/matt/SkyDrives/Full_Sail/SkyDrive/SMS/Flaticon_WebFont (2)/flaticon.html",
+		"/Users/matt/Dropbox/DFP/grubGrub.html",
+		"/Users/matt/Desktop/Full_Sail/SFW2/Week2/day6/uidemos/store/js/script.js",
+		"/Users/matt/SkyDrives/Full_Sail/SkyDrive/SMS/higley_wigley.as",
+		"/Users/matt/Desktop/Full_Sail/SFW2/antonio_matt_FINAL/js/jquery-1.9.1.js",
+		"/Applications/MAMP/htdocs/mantonioSMS/js/sms_setup.js",
+		"/Users/matt/SkyDrives/Full_Sail/SkyDrive/Flaticon_WebFont/flaticon.css",
+		"/Applications/MAMP/htdocs/mantonioSMS/gitlinks.txt",
+		"/Applications/MAMP/htdocs/mantonioSMS/flaticon.html",
+		"/Applications/MAMP/htdocs/rmo/css/main.css",
+		"/Applications/MAMP/htdocs/mantonioSMS/js/examples.js",
+		"/Users/matt/Dropbox/DFP/css/main.css",
+		"/Users/matt/Desktop/Full_Sail/SFW2/antonio_matt_FINAL/templates/app.html",
+		"/Applications/MAMP/htdocs/mantonioSMS/js/jquery-ui-1.10.4.custom.js",
+		"/Users/matt/Desktop/Full_Sail/SFW2/antonio_matt_FINAL/index.html",
+		"/Users/matt/Desktop/Full_Sail/SFW2/antonio_matt_FINAL/landing.html",
+		"/Users/matt/Desktop/Full_Sail/SFW2/antonio_matt_FINAL/xhr/login.php",
+		"/Users/matt/Desktop/Full_Sail/SFW2/antonio_matt_FINAL/js/jquery-ui-1.10.2.custom.min.js",
+		"/Users/matt/Desktop/Full_Sail/SFW2/antonio_matt_FINAL/templates/project_content.html",
+		"/Applications/MAMP/htdocs/rmo/index.html",
+		"/Applications/MAMP/htdocs/rmo/js/site.js",
+		"/Applications/MAMP/htdocs/rmo/js/modernizr.js",
+		"/Applications/MAMP/htdocs/rmo/js/jquery-2.1.0.min.js",
+		"/Users/matt/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Applications/MAMP/htdocs/rmo/duck-hunt.html",
+		"/Users/matt/SkyDrives/Full_Sail/SkyDrive/RMO/Final Practical/WWW.GAMEXP.COM/index.html",
+		"/Users/matt/Desktop/js/main.js",
+		"/Applications/MAMP/htdocs/rmo/slider.html",
+		"/Applications/MAMP/htdocs/rmo/sliderengine/initslider-1.js",
+		"/Applications/MAMP/htdocs/rmo/sliderengine/amazingslider.js",
+		"/private/var/folders/kk/rx8sf6z95hz61bdp4lb5t_v80000gn/T/fz3temp-1/custom.css",
+		"/private/var/folders/kk/rx8sf6z95hz61bdp4lb5t_v80000gn/T/fz3temp-1/details.html.tpl.php",
+		"/private/var/folders/kk/rx8sf6z95hz61bdp4lb5t_v80000gn/T/fz3temp-1/common.php",
+		"/private/var/folders/kk/rx8sf6z95hz61bdp4lb5t_v80000gn/T/fz3temp-1/rt_afterburner2-custom.css",
+		"/private/var/folders/kk/rx8sf6z95hz61bdp4lb5t_v80000gn/T/fz3temp-1/listing.html.tpl.php",
+		"/Users/matt/SkyDrives/Full_Sail/SkyDrive/RMO/Lab 02/web/svg.css",
+		"/Users/matt/SkyDrives/Full_Sail/SkyDrive/RMO/Lab 02/web/index.html",
+		"/private/var/folders/kk/rx8sf6z95hz61bdp4lb5t_v80000gn/T/fz3temp-1/index 2.php",
+		"/private/var/folders/kk/rx8sf6z95hz61bdp4lb5t_v80000gn/T/fz3temp-1/cm.php",
+		"/private/var/folders/kk/rx8sf6z95hz61bdp4lb5t_v80000gn/T/fz3temp-1/index.php",
+		"/Users/matt/SkyDrives/Full_Sail/SkyDrive/RMO/Lab 02/MAntonio_RMO_Lab2a_2014.02.08_station_logo_svg.txt",
+		"/Applications/MAMP/htdocs/markularity/app/Controller/IndexController.php",
+		"/Applications/MAMP/htdocs/markularity/app/Controller/BookmarksController.php",
+		"/Applications/MAMP/htdocs/markularity/app/Controller/UsersController.php",
+		"/private/var/folders/kk/rx8sf6z95hz61bdp4lb5t_v80000gn/T/fz3temp-1/configuration.php",
+		"/private/var/folders/kk/rx8sf6z95hz61bdp4lb5t_v80000gn/T/fz3temp-1/contact.php",
+		"/Applications/MAMP/htdocs/markularity/app/Model/User.php",
+		"/Applications/MAMP/htdocs/markularity/app/View/Users/login.ctp",
+		"/private/var/folders/kk/rx8sf6z95hz61bdp4lb5t_v80000gn/T/fz3temp-1/database.php",
+		"/Applications/MAMP/htdocs/markularity/app/Controller/AppController.php",
+		"/Applications/MAMP/htdocs/markularity/app/webroot/css/bootstrap.css",
+		"/Applications/MAMP/htdocs/markularity/app/Config/routes.php",
+		"/Applications/MAMP/htdocs/markularity/app/Config/bootstrap.php",
+		"/Applications/MAMP/htdocs/markularity/app/View/Index/index.ctp",
+		"/private/var/folders/kk/rx8sf6z95hz61bdp4lb5t_v80000gn/T/fz3temp-1/.htaccess 3",
+		"/private/var/folders/kk/rx8sf6z95hz61bdp4lb5t_v80000gn/T/fz3temp-1/.htaccess",
+		"/private/var/folders/kk/rx8sf6z95hz61bdp4lb5t_v80000gn/T/fz3temp-1/.htaccess 2",
+		"/private/var/folders/kk/rx8sf6z95hz61bdp4lb5t_v80000gn/T/fz3temp-1/croogo.php",
+		"/Applications/MAMP/htdocs/markularity/app/.htaccess",
+		"/private/var/folders/kk/rx8sf6z95hz61bdp4lb5t_v80000gn/T/fz3temp-1/settings.json",
+		"/Applications/MAMP/htdocs/croogo/app/Config/database.php",
+		"/Applications/MAMP/htdocs/markularity/app/View/Elements/flash_notification.ctp",
+		"/Applications/MAMP/htdocs/markularity/app/View/Bookmarks/index.ctp"
+	],
+	"find":
+	{
+		"height": 36.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"input",
+			"Retail",
+			"prev",
+			"itemSelected",
+			"whichItem",
+			"partition",
+			"main",
+			"transition",
+			"progressbar",
+			"audioSlider",
+			"goch",
+			"show",
+			"userInfo",
+			"user",
+			"comment",
+			"fb-login",
+			"commentUserName",
+			"click",
+			"logout",
+			"blockquote",
+			"hover",
+			"		\n",
+			"click",
+			"live",
+			"b22929",
+			"accordion",
+			"scroll",
+			"amazingslider-watermark",
+			"amazingslider.com",
+			"scroll",
+			"$configClass",
+			"agent",
+			"col-lg-5",
+			"tr",
+			"hash",
+			"$auth",
+			"session",
+			"loginAction()",
+			"auth",
+			"            			\n",
+			"select ",
+			"save()",
+			"			\n",
+			"border-color",
+			"\";\n",
+			"			\n",
+			"		\n",
+			"mfp-fade",
+			"popup-block"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		},
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 28.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			],
+			[
+				1,
+				0,
+				2,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			0.5,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"project": "mdd_portfolioApp.sublime-project",
+	"replace":
+	{
+		"height": 52.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"",
+				"js/app/controllers/detail_controller.js"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 179.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
